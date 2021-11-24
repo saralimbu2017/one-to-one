@@ -13,7 +13,7 @@ use App\Models\Address;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//route for home page
 Route::get('/', function () {
     return view('welcome');
 });
