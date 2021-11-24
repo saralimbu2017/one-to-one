@@ -18,9 +18,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/insert', function () {
-
+Route::get('/insert',function(){
     $user = User::findOrFail(1);
-    $address = new Address(['name'=>'Mel, Vic']);
+    $address = new Address(['name'=>'123 New address']);
     $user->address()->save($address);
+});
+
+Route::get('/update',function(){
+    $address = Address::whereUserId(1)->first();
+    $address->name = 'Updated Mel';
+    $address->save();
 });
