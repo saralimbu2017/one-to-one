@@ -12,7 +12,7 @@
 <div align="center">
     <h1> One to One Eloquent Database Relationship</h1>
     <h5>ABOUT THE PROJECT</h2>
-    <a href="https://github.com/saralimbu2017/one-to-ont">
+    <a href="https://github.com/saralimbu2017/one-to-one">
     </a>
  </div>
  
